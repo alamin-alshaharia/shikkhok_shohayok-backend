@@ -1,0 +1,8 @@
+CREATE TABLE users (
+  id BIGSERIAL PRIMARY KEY,
+  phone VARCHAR NOT NULL UNIQUE,
+  password VARCHAR NOT NULL,
+  full_name VARCHAR NOT NULL,
+  school_name VARCHAR NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT (now())
+);

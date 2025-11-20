@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS lesson_plans;
+DROP TABLE IF EXISTS routines;
